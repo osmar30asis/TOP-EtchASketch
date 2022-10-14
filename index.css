@@ -7,18 +7,32 @@ body {
     background-attachment: fixed;
 }
 
-h1, h2 {
+h1, h2, input {
     text-align: center;
 }
 
 h1 {
     font-size: 48px;
-    margin: 50px;
+    margin: 30px;
 }
 
 h2 {
     font-size: 36px;
-    margin: 50px;
+    margin: 30px;
+}
+
+.text-box {
+    text-align: center;
+}
+
+input {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.button-box {
+    text-align: center;
+    margin: 20px;
 }
 
 .container {
@@ -33,9 +47,6 @@ h2 {
     height: 500px;
     flex-wrap: wrap;
     border-style: solid;
-    border-width: 2px
-}
-
-.tile:hover {
-    background-color: indigo;
+    border-width: 2px;
+    background-color: white;
 }
